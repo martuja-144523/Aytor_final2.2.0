@@ -1,0 +1,24 @@
+#sp_shop_info .sp_prod{
+    padding: 15px 0;
+}
+#sp_shop_info .sp_info_img img{
+    width: 100%;
+    transition: .5s;
+}
+#sp_shop_info .sp_info_img:hover img{
+    transform: scale(1.08);
+}
+#sp_shop_info .sp_info_tx .icon_2 i{
+    width: 40px;
+    height: 40px;
+    background:black;
+    line-height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    transition: .7s;
+    cursor: pointer;
+}
+#sp_shop_info .sp_info_tx .icon_2 i:hover{
+    background: #FF6F61;
+}

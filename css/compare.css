@@ -1,0 +1,44 @@
+#compare table{
+    border: 1px solid black;
+    width: 100%;
+}
+#compare table tr td{
+    border: 1px solid black;
+    padding: 35px 12px;
+}
+#compare table tr .td_1{
+    width: 15%;
+}
+#compare table tr .td_2{
+    width: 21.25%;
+}
+#compare table tr .td_3{
+    width: 21.25%;
+}
+#compare table tr .td_4{
+    width: 21.25%;
+}
+#compare table tr .td_5{
+    width: 21.25%;
+}
+#compare table tr td i{
+    cursor: pointer;
+    font-size: 20px;
+    color: black;
+    transition: .4s;
+}
+#compare table tr td i:hover{
+    color: #FF6F61;
+    font-size: 22px;
+}
+#compare table .td_button button{
+    background: #FF6F61;
+    box-shadow: none;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    transition: .6s;
+}
+#compare table .td_button button:hover{
+    background-color: black;
+}
